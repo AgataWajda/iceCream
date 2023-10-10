@@ -367,6 +367,7 @@ ul {
     width: 568px;
     height: 80%;
     top: 10%;
+
     left: calc((100% - 568px) / 2);
   }
   @include desktop {
@@ -397,7 +398,7 @@ ul {
     line-height: 1.4;
     color: $textBlack;
     display: block;
-    margin: 0 auto;
+
     margin-top: 28px;
     width: 142px;
     height: 56px;
