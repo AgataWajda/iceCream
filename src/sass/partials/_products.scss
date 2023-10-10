@@ -344,11 +344,10 @@ ul {
 .products-modal {
   position: fixed;
   overflow: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0 auto;
+  left: calc((100% - 280px) / 2);
+  top: 9%;
+  margin: auto;
+  cursor: default;
   background-color: $textWhite;
   visibility: visible;
   display: block;
@@ -359,9 +358,16 @@ ul {
   width: 280px;
   height: 82%;
 
+  @include mobile {
+    width: 360px;
+    left: calc((100% - 360px) / 2);
+  }
+
   @include tablet {
     width: 568px;
-    top: 30px;
+    height: 80%;
+    top: 10%;
+    left: calc((100% - 568px) / 2);
   }
   @include desktop {
     width: 568px;
@@ -464,6 +470,7 @@ ul {
   margin-top: 22px;
   text-align: center;
   justify-content: center;
+  padding: 0;
   @include desktop {
     margin-top: 24px;
   }
