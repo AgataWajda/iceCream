@@ -301,16 +301,20 @@
   border: 2px solid $secondaryBrandColor;
   border-radius: 10px;
   width: 280px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 22px;
   cursor: auto;
   overflow: auto;
 
   @include tablet {
     width: 568px;
-    height: 644px;
+    max-height: 644px;
+    margin: auto;
   }
 
   &__close-button {
+    box-sizing: content-box;
     border: none;
     width: 24px;
     height: 24px;
