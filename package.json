@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "ice-cream",
   "version": "1.1.0",
   "description": "",
-   "homepage": "https://agatawajda.github.io/iceCream/",
+  "homepage": "https://agatawajda.github.io/iceCream/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /iceCream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/migace/parcel-project-template-pl-main.git"
+    "url": "git+https://github.com/AgataWajda/iceCream.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Agata Wajda <agawaj98@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/migace/parcel-project-template-pl-main/issues"
+    "url": "https://github.com/AgataWajda/iceCream/issues"
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.3",
